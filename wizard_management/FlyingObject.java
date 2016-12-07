@@ -1,6 +1,6 @@
 package wizard_management;
 
-public abstract class FlyingObjects {
+public abstract class FlyingObject {
   
   String name;
 
