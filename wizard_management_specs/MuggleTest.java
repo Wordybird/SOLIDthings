@@ -43,4 +43,10 @@ public class MuggleTest {
     assertEquals("Spinning the propellors, generating speed, lift off!", muggle.fly());
   }
 
+  public void canSetProtection() {
+    Gun gun = new Gun();
+    muggle.setProtection(gun);
+    assertEquals("Step back, I've got a gun!", muggle.protect());
+  }
+
 }
