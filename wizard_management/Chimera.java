@@ -1,6 +1,6 @@
 package wizard_management;
 
-public class Chimera extends MythicalBeast implements Flyable, Protectable {
+public class Chimera extends MythicalBeast implements Protectable {
 
   public Chimera(String name) {
     super(name);
