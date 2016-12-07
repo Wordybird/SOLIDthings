@@ -16,4 +16,8 @@ public class MopTest {
     assertEquals("Hygenic", mop.getBrand());
   }
   
+  @Test
+  public void canProtect() {
+    assertEquals(mop.protect(), "Step back, I've got... a mop?!");
+  }
 }

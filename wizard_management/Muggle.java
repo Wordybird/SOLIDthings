@@ -4,6 +4,7 @@ public class Muggle {
   String name;
   Flyable flyable;
   Protectable protection;
+  CleaningImplement cleaner;
 
   public Muggle(String name, Flyable flyable) {
     this.name = name;
